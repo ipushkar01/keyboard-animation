@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    perspective: 1000px;
+}
+.button {
+    background-color: lightpink;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid #333;
+    box-shadow: 0 40px 0 0  rgb(248, 166, 179);
+    transform: rotateX(60deg);
+}
+.button:active{
+    transform: rotateX(60deg) translateY(40px);
+    box-shadow: none;
+}
